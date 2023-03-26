@@ -1,14 +1,99 @@
 .navigation{
+    display: none;
+}
+
+.logomobil{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+ }
+    
+.topnav {
+    overflow: hidden;
     background-color: #00454F;
+    position: relative;
+    margin: -10px;
 }
-
-.menubar{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+      
+.topnav #myLinks {
+    display: none;
 }
-
-#menuknap{
-    background-color: transparent;
+      
+.topnav a {
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
 }
+      
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    font-size: 40px;
+}
+      
+.topnav a:hover {
+    color: #7293A0;
+}
+
+.burger{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .navigation{
+        display: grid;
+        background-color: #00454F;
+        margin: -10px
+    }
+
+    .menubar{
+        display: grid;
+        grid-template-columns: 400px auto auto auto auto;
+    }
+
+
+    .menuknap{
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 20px;
+        margin-top: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0px;
+    }
+
+    ul.menubar{
+        padding: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .menuknap:hover {
+        color: #7293A0;
+      }
+
+    .logo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    .topnav {
+        display: none;
+      }
+
+    }
