@@ -1,0 +1,14 @@
+.navigation{
+    background-color: #00454F;
+}
+
+.menubar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#menuknap{
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
