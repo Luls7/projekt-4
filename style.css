@@ -61,6 +61,11 @@ body{
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    border: solid black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
 }
 
 .gridboks{
@@ -95,7 +100,18 @@ body{
     border: none;
     border-radius: 10px;
     width: 120px;
-    height: 30px;  
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.arrangementerforside{
+    padding: 10px;
+}
+
+.meretekst{
+    font-size: 13px;
 }
 
 /* -- FOOTER -- */
