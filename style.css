@@ -70,6 +70,10 @@
         font-weight: 600;
     }
 
+    .menugrid{
+        text-align: left;
+    }
+
     ul{
         list-style: none;
         margin: 0px;
