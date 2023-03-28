@@ -2,6 +2,10 @@ body{
     margin: 0px;
 }
 
+main{
+    background-color: white;
+}
+
 .navigation{
     display: none;
 }
@@ -182,6 +186,26 @@ i{
     font-style: italic;
     color:#00454F;
     margin-top: 0px;
+}
+
+.udenomboksopret{
+    background-color:#F4F4F4;
+    height: 800px;
+    margin: 30px;
+}
+
+@media only screen and (min-width: 600px){
+    .arraoverblik{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        margin: 50px;
+    }
+    .overskrifter{
+        grid-column: 1 / span 2;
+    }
+
+    
 }
 
 
