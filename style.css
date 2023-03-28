@@ -170,8 +170,7 @@ main{
     display: grid;
     background-color:#F4F4F4;
     height: auto;
-    width: 450px;
-    justify-content: center;
+    width: 1200px;
 }
 
 .opretgrid{
@@ -194,11 +193,6 @@ main{
 .opretindenigrid1{
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: center;
-    height: 500px;
-    width: 380px;
-    background-color: #7293A0;
-    margin: 20px;
 }
 
 .opretindenigrid2{
@@ -210,70 +204,11 @@ main{
     display: grid;
 }
 
-.formulargrid1{
-    grid-column: 1 / span 2;
-    margin: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.titelinput{
-    width: 99%;
-}
-
-.formulargrid2{
-    height: 20px;
-    width: 80%;
-    background-color: white;
-    margin: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.formulargrid3{
-    height: 20px;
-    width: 80%;
-    background-color: white;
-    margin: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.formulargrid4{
-    grid-column: 1 / span 2;
-    width: 300px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.placeringinput{
-    width: 300px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.formulargrid5{
-    grid-column: 1 / span 2;
-    height: 20px;
-    width: 300px;
-    background-color: white;
-    margin: 20px;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.formulargrid6{
-    grid-column: 1 / span 2;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.beskrivinput{
-    width: 300px;
-    height: 150px;
-    margin: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 /* -- FOOTER -- */
 
 .footerboks{
     display: grid;
-    width: 300px;
+    width: 100%;
     background-color: #00454F;
     color: white;
 }
