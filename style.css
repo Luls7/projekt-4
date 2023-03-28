@@ -194,10 +194,8 @@ i{
     margin: 30px;
 }
 
-.opretbokse{
-    margin: ;
-}
 
+/* TABLETVERSION */
 @media only screen and (min-width: 600px){
     .arraoverblik{
         display: grid;
@@ -208,11 +206,9 @@ i{
     .overskrifter{
         grid-column: 1 / span 2;
     }
-
-    
 }
 
-
+/* LAPTOPVERSION */
 @media only screen and (min-width: 1000px) {
     .navigation{
         display: grid;
@@ -227,16 +223,15 @@ i{
 
     .menugrid{
         text-align: right;
+        margin-top: 40px;
     }
 
     .menuknap{
-        background-color: transparent;
-        border: none;
         color: white;
         font-size: 20px;
-        margin-top: 40px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        text-decoration: none;
     }
 
     ul{
