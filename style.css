@@ -76,21 +76,21 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
-    height: 300px;
-    width: 900px;
+    height: 180px;
+    width: 450px;
     background-color: #7293A0;
     color: white;
-    margin: 20px;
+    margin: 10px;
     font-family:'Montserrat', sans-serif;
 }
 
 .testbillede{
-    height: 280px;
-    width: 430px;
     margin: 10px;
     justify-content: left;
     background-color: white;
     color: black;
+    height: 160px;
+    width: 215px;
 }
 
 .mereknap{
@@ -100,7 +100,6 @@ body{
     width: 120px;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 30px;
     font-weight: 500;
 }
 
@@ -110,6 +109,10 @@ body{
 
 .meretekst{
     font-size: 13px;
+}
+
+.arratekst{
+    font-size: 20px;
 }
 
 /* -- FOOTER -- */
@@ -135,7 +138,6 @@ i{
     text-align: center;
     color: white;
 }
-
 
 
 @media only screen and (min-width: 1000px) {
@@ -190,5 +192,28 @@ i{
     .topnav {
         display: none;
       }
+
+    .indenibokse{
+        height: 300px;
+        width: 900px;
+        margin: 20px;
+    }
+
+    .testbillede{
+        height: 280px;
+        width: 430px;
+    }
+
+    .meretekst{
+        font-size: 10px;
+    }
+
+    .arratekst{
+        font-size: 30px;
+    }    
+
+    .mereknap{
+        margin-top: 30px;
+    }
 
     }
