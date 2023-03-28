@@ -97,7 +97,7 @@ body{
     background-color: #E4F1F0;
     border: none;
     border-radius: 10px;
-    width: 120px;
+    width: 100px;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -113,6 +113,12 @@ body{
 
 .arratekst{
     font-size: 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.overskrifter{
+    margin: 20px;
 }
 
 /* -- FOOTER -- */
@@ -137,6 +143,39 @@ i{
     padding: 20px;
     text-align: center;
     color: white;
+}
+
+.arraoverblik{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    justify-content: center;
+}
+
+.arrangement{
+    height: 270px;
+    width: 300px;
+    background-color: white;
+    border: solid black;
+    margin: 20px;
+}
+
+.overskrift1{
+    margin: 20px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    color: #00454F;
+}
+
+.overskrifter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color:#00454F;
+    margin-top: 0px;
 }
 
 
@@ -214,6 +253,23 @@ i{
 
     .mereknap{
         margin-top: 30px;
+    }
+
+    .mereknap{
+        width: 120px;
+        height: 30px;
+    }
+
+    .arraoverblik{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        margin: 50px;
+    }
+    
+    .overskrifter{
+        grid-column: 1 / span 4;
     }
 
     }
