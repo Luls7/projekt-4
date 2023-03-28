@@ -150,14 +150,20 @@ i{
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     justify-content: center;
+    margin: 50px;
 }
 
 .arrangement{
-    height: 270px;
-    width: 300px;
-    background-color: white;
-    border: solid black;
+    height: 250px;
+    width: 250px;
+    background-color:#eaeaea;
     margin: 20px;
+    padding: 20px;
+}
+
+.arrangementoverskrift{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 .overskrift1{
@@ -172,7 +178,7 @@ i{
 
 .overskrifter{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     font-style: italic;
     color:#00454F;
     margin-top: 0px;
