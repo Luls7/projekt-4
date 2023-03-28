@@ -204,6 +204,13 @@ main{
     display: grid;
 }
 
+/* LOG IND SIDE */
+
+.form{
+    margin: 220px;
+}
+
+
 /* -- FOOTER -- */
 
 .footerboks{
