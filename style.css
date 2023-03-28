@@ -207,7 +207,62 @@ main{
 /* LOG IND SIDE */
 
 .form{
+    display: grid;
     margin: 220px;
+}
+
+#UCLbrugernavn{
+    display: grid;
+    justify-content: center;
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#adgangskode{
+    display: grid;
+    justify-content: center;
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+#logindknap{
+    background-color: #E4F1F0;
+    border: solid #00454F;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.logindtekst{
+    font-family: 'Montserrat', sans-serif;
+    color: #00454F;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logindovertekst{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #00454F;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    font-style: italic;
 }
 
 
