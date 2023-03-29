@@ -90,11 +90,29 @@ main{
     font-family:'Montserrat', sans-serif;
 }
 
-.testbillede{
+.testbillede1{
     margin: 10px;
     justify-content: left;
-    background-color: white;
-    color: black;
+    background-image: url('/billeder/fest.jpeg');
+    color: white;
+    height: 160px;
+    width: 215px;
+}
+
+.testbillede2{
+    margin: 10px;
+    justify-content: left;
+    background-image: url('/billeder/fest.jpeg');
+    color: white;
+    height: 160px;
+    width: 215px;
+}
+
+.testbillede3{
+    margin: 10px;
+    justify-content: left;
+    background-image: url('/billeder/fest.jpeg');
+    color: white;
     height: 160px;
     width: 215px;
 }
@@ -364,7 +382,17 @@ i{
         margin: 20px;
     }
 
-    .testbillede{
+    .testbillede1{
+        height: 280px;
+        width: 430px;
+    }
+
+    .testbillede2{
+        height: 280px;
+        width: 430px;
+    }
+
+    .testbillede3{
         height: 280px;
         width: 430px;
     }
