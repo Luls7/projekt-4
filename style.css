@@ -300,9 +300,7 @@ main{
     font-family:'Montserrat', sans-serif;
 }
 
-.tekstiboks{
- 
-}
+
 
 .kreabillede{
     height: 200px;
@@ -310,19 +308,6 @@ main{
 }
 
 /* -- MIN PROFIL -- */
-
-.minprofilboks{
-    display: grid;
-    width: 700px;
-    height:500px;
-    background-color:black;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.tilmeldte
-
-
 
 
 /* -- FOOTER -- */
