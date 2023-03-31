@@ -283,22 +283,30 @@ main{
 
 
 /* -- KREAVÆRKSTED -- */
+
+.breadcrum{
+    color: #00454F;
+    text-decoration-style: none; 
+}
+
 .kreaboks{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50%;
     justify-content: center;
     background-color: #F4F4F4;
     height: 600px;
     width: auto;
-    margin: 50px;
+    margin: 30px;
     font-family:'Montserrat', sans-serif;
 }
 
+.tekstiboks{
+ 
+}
+
 .kreabillede{
-    justify-content: right;
-    margin: 30px;
     height: 200px;
-    width: 215px;
+    width: 300px;
 }
 
 
