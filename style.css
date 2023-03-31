@@ -309,6 +309,11 @@ main{
 
 /* -- MIN PROFIL -- */
 
+.minprofilboks{
+    background-color:#E4F1F0;
+    height: 500px;
+    width: 100%;
+}
 
 /* -- FOOTER -- */
 
