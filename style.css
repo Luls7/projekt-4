@@ -309,6 +309,19 @@ main{
     width: 300px;
 }
 
+/* -- MIN PROFIL -- */
+
+.minprofilboks{
+    display: grid;
+    width: 700px;
+    height:500px;
+    background-color:black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tilmeldte
+
 
 
 
