@@ -301,7 +301,6 @@ main{
 }
 
 
-
 .kreabillede{
     height: 200px;
     width: 300px;
@@ -309,10 +308,17 @@ main{
 
 /* -- MIN PROFIL -- */
 
-.minprofilboks{
-    background-color:#E4F1F0;
-    height: 500px;
-    width: 100%;
+
+.mingridboks{
+    display: grid;
+
+}
+
+.minindenibokse{
+    margin: 30px;
+    background: url("billeder/krea.png") ;
+    height: 200px;
+    width: 400px;
 }
 
 /* -- FOOTER -- */
