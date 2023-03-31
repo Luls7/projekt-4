@@ -311,14 +311,43 @@ main{
 
 .mingridboks{
     display: grid;
-
+    justify-content: center;
 }
 
-.minindenibokse{
+.minindenibokse1{
+    display: grid;
+    justify-content: center;
     margin: 30px;
-    background: url("billeder/krea.png") ;
+    background: url("billeder/kreavaerkstedlille.png");
     height: 200px;
     width: 400px;
+}
+
+.minindenibokse2{
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+    height: 200px;
+    width: 400px;
+    background-color: #eaeaea;
+}
+
+.minindenibokse3{
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+    height: 200px;
+    width: 400px;
+    background-color: #eaeaea;
+}
+
+.tilmeldtearrangementer{
+    height: 180px;
+    width: 360px;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 30px;
+    margin: 10px;
 }
 
 /* -- FOOTER -- */
