@@ -291,7 +291,12 @@ main{
 
 .breadcrum a{
     color: #00454F;
-    text-decoration: none; 
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+}
+
+.breadcrum a:hover{
+    font-weight: 500;
 }
 
 .gridkrea{
@@ -302,7 +307,7 @@ main{
 .kreaboks{
     display: grid;
     grid-template-columns: 50%;
-    margin: 30px;
+    margin: 40px;
     font-family:'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -326,6 +331,23 @@ main{
 .kreabillede{
     height: 200px;
     width: auto;
+}
+
+.tilmeldknap{
+    background-color: #00454F;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 15px;    
+    font-weight: 600;
+    border-radius: 10px;
+    width:300px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.tilmeldknap:hover{
+    background-color: #7293A0;
 }
 
 /* -- MIN PROFIL -- */
