@@ -300,15 +300,25 @@ main{
     justify-content: center;
     background-color: #F4F4F4;
     height: 600px;
-    width: auto;
+    width: 400px;
     margin: 30px;
     font-family:'Montserrat', sans-serif;
 }
 
+.tekstiboks {
+    width: auto;
+    font-weight:500;
+}
+
+.dato{
+    color: #00454F;
+    font-family:;
+}
 
 .kreabillede{
     height: 200px;
-    width: 300px;
+    width: auto;
+    margin:;
 }
 
 /* -- MIN PROFIL -- */
