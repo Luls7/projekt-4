@@ -124,6 +124,11 @@ main{
     font-weight: 500;
 }
 
+.mereknap a{
+    text-decoration: none;
+    color: black;
+}
+
 .arrangementerforside{
     padding: 10px;
 }
@@ -284,9 +289,9 @@ main{
 
 /* -- KREAVÆRKSTED -- */
 
-.breadcrum{
+.breadcrum a{
     color: #00454F;
-    text-decoration-style: none; 
+    text-decoration: none; 
 }
 
 .kreaboks{
