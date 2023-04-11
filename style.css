@@ -294,24 +294,33 @@ main{
     text-decoration: none; 
 }
 
+.gridkrea{
+    background-color: #F4F4F4;
+    height: auto;
+}
+
 .kreaboks{
     display: grid;
     grid-template-columns: 50%;
-    justify-content: center;
-    background-color: #F4F4F4;
-    height: 600px;
-    width: 400px;
     margin: 30px;
     font-family:'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
-.tekstiboks {
-    width: auto;
-    font-weight:500;
+.tekstiboks{
+  margin: auto;
+}
+
+.overskrift{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    color:#00454F;
 }
 
 .dato{
     color: #00454F;
+    font-weight: 600;
 }
 
 .kreabillede{
@@ -516,5 +525,4 @@ i{
     .udenomboksopret{
         grid-template-columns: auto auto;
     }
-
 }
