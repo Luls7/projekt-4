@@ -214,13 +214,11 @@ main{
 
 .opretindenigrid1{
     display: grid;
-    
 }
 
 .opretindenigrid2{
     display: grid;
     height: 500px;
-    padding-left: 200px;
 }
 
 .opretindenigrid3{
@@ -294,6 +292,20 @@ main{
     grid-column: 1 / span 2;
     margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.billede{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+.billedeknap{
+   height: 20px;
+   width: 100px;
+   padding: 5px;
+   margin-bottom: 55px;
+   background-color: #00454f35;
+   font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -530,6 +542,7 @@ i{
     .tilmeldknap{
         margin-left: 380px;
     }
+    
 }
 
 /* LAPTOPVERSION */
