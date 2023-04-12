@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e731c0393a.js" crossorigin="anonymous"></script>
-    <script src="voresucl.js"></script>
+    <script src="voresucl.js" defer></script>
 </head>
 <body>
     <header>
@@ -35,7 +35,32 @@
     </header>
     
     <main>
-        <div class="boks">Her skal slideshowet være juhuu!</div>
+        <!--galleri-->
+        <div class="galleri">
+            <div class="billedeslide">
+              <img class="billedeAmalie" src="billeder/fest.jpeg">
+              <div class="tekstblok">
+                <h4 class="iblok">SEMESTERFEST</h4>
+                <p>Fredag d. 21. april 2023</p>
+              </div>
+            </div>
+            <div class="billedeslide">
+              <img class="billedeAmalie" src="billeder/krea.png">
+            </div>
+            <div class="billedeslide">
+              <img class="billedeAmalie" src="billeder/fodbold.png">
+            </div>
+            <div class="billedeslide">
+                <img class="billedeAmalie" src="billeder/spil.jpeg">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="prik" onMouseOver="changeColor(this, '#ede2cd')" onMouseOut="changeColor(this, '#bbb')"></span> 
+            <span class="prik" onMouseOver="changeColor(this, '#ede2cd')" onMouseOut="changeColor(this, '#bbb')"></span> 
+            <span class="prik" onMouseOver="changeColor(this, '#ede2cd')" onMouseOut="changeColor(this, '#bbb')"></span>
+            <span class="prik" onMouseOver="changeColor(this, '#ede2cd')" onMouseOut="changeColor(this, '#bbb')"></span> 
+        </div>
         <div class="gridboks">
             <div class="indenibokse">
                 <img src="billeder/krea.png" alt="Billede af kreaværkstedet" class="testbillede1">
@@ -46,7 +71,7 @@
                     <p class="meretekst">
                         Tag en ven under armen, og tag ned og slip dine kreative evner løs i kreaværkstedet.
                     </p>
-                    <button class="mereknap"><a href="kreaværkstedet.html">LÆS MERE</a></button>
+                    <button class="læsknap"><a href="kreaværkstedet.html">LÆS MERE</a></button>
                     </div>
                 </div>
             <div class="indenibokse">
@@ -58,7 +83,7 @@
                     <p class="meretekst">
                         Tilmeld dig nu, og vær med til at sparke semesteret i gang med et brag af en fest!
                     </p>
-                    <button class="mereknap">LÆS MERE</button>
+                    <button class="læsknap">LÆS MERE</button>
                     </div>
                 </div>
                 <div class="indenibokse">
@@ -70,7 +95,7 @@
                         <p class="meretekst">
                             Er du også vild med fodbold, eller kan du bare lide at være aktiv og social? 
                         </p>
-                        <button class="mereknap">LÆS MERE</button>
+                        <button class="læsknap">LÆS MERE</button>
                     </div>
                     </div>
         </div>
