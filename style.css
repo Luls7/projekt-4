@@ -210,9 +210,9 @@ main{
     margin-top: 10px;
 }
 
-/* OPRET ARRANGEMENT */
+ /* OPRET ARRANGEMENT */
 
-.overskriftopret{
+ .overskriftopret{
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     font-style: italic;
@@ -224,12 +224,13 @@ main{
 
 .opretindenigrid1{
     display: grid;
-    grid-template-columns: auto auto;
+    
 }
 
 .opretindenigrid2{
     display: grid;
     height: 500px;
+    padding-left: 200px;
 }
 
 .opretindenigrid3{
@@ -237,7 +238,7 @@ main{
 }
 
 .arrangementinput{
-    width: 80%;
+    width: 81%;
     border: none;
     background-color:#00454f35; 
 }
@@ -252,21 +253,23 @@ main{
 
 .indtastdato{
     height: 20px;
-    width: 50%;
+    width: 65%;
     background-color:#00454f35; 
     margin-left: 30px;
+    padding: 5px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .indtasttidspunkt{
     height: 20px;
-    width: 80%;
+    width: 63%;
+    padding: 5px;
     background-color:#00454f35; 
     font-family: 'Montserrat', sans-serif;
 }
 
 .placeringinput{
-    width: 80%;
+    width: 96%;
     border: none;
     background-color:#00454f35; 
 }
@@ -281,18 +284,20 @@ main{
 .kategori{
     grid-column: 1 / span 2;
     height: 20px;
-    width: 30%;
+    width: 32%;
     background-color:#00454f35; 
     margin-left: 30px;
+    padding: 5px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .beskrivelseinput{
     width: 80%;
     border: none;
-    height: 150px;
+    height: 170px;
     background-color:#00454f35; 
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
 }
 
 .indtastbeskrivelse{
@@ -300,6 +305,7 @@ main{
     margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* LOG IND SIDE */
 
@@ -674,4 +680,6 @@ i{
    .tilmeldknap{
     margin-left: 535px;
    }
+
+  
 }
