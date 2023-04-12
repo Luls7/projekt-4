@@ -214,12 +214,13 @@ main{
 
 .opretindenigrid1{
     display: grid;
-    grid-template-columns: auto auto;
+    
 }
 
 .opretindenigrid2{
     display: grid;
     height: 500px;
+    padding-left: 200px;
 }
 
 .opretindenigrid3{
@@ -294,6 +295,8 @@ main{
     margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 /* LOG IND SIDE */
 
 .form{
