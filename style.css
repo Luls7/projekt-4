@@ -570,21 +570,24 @@ i{
     .gridkrea{
         width: 1000px;
         height: auto;
-        justify-content: center;
     }
 
     .tekstiboks{
         margin-top: -1px;
-        margin-left: 40px
+        margin-left: 35px
+    }
+
+    .kreaboks{
+        margin-top: 55px;
     }
 
    .kreabillede{
     width: 500px;
     height: 400px;
-    margin-left: -75px;
+    margin-left: -80px;
    }
 
    .tilmeldknap{
-    margin-left: 530px;
+    margin-left: 535px;
    }
 }
