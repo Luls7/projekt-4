@@ -122,6 +122,9 @@ main{
     height: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    position: relative;
+    left: 47px;
+    bottom: 80px;
 }
 
 .mereknap a{
