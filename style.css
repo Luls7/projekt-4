@@ -114,6 +114,21 @@ main{
     width: 215px;
 }
 
+.læsknap{
+    background-color: #E4F1F0;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.læsknap a{
+    text-decoration: none;
+    color: black;
+}
+
 .mereknap{
     background-color: #E4F1F0;
     border: none;
@@ -627,11 +642,11 @@ i{
         font-size: 30px;
     }    
 
-    .mereknap{
+    .læsknap{
         margin-top: 30px;
     }
 
-    .mereknap{
+    .læsknap{
         width: 120px;
         height: 30px;
     }
