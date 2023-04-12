@@ -288,6 +288,9 @@ main{
 
 
 /* -- KREAVÆRKSTED -- */
+.breadcrum{
+    margin-top: 60px;
+}
 
 .breadcrum a{
     color: #00454F;
@@ -331,6 +334,7 @@ main{
 .kreabillede{
     height: 200px;
     width: auto;
+    border-radius: 10px;
 }
 
 .tilmeldknap{
@@ -341,6 +345,7 @@ main{
     font-size: 17px;    
     font-weight: 600;
     border-radius: 10px;
+    border-style: none;
     width:300px;
     height: 50px;
     margin-left: 40px;
@@ -439,11 +444,11 @@ i{
     }
 
     .kreabillede{
-        margin: 30px
+        margin: 20px;
     }
 
     .tilmeldknap{
-        margin-left: 422px;
+        margin-left: 380px;
     }
 }
 
@@ -561,4 +566,25 @@ i{
     .udenomboksopret{
         grid-template-columns: auto auto;
     }
+
+    .gridkrea{
+        width: 1000px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .tekstiboks{
+        margin-top: -1px;
+        margin-left: 40px
+    }
+
+   .kreabillede{
+    width: 500px;
+    height: 400px;
+    margin-left: -75px;
+   }
+
+   .tilmeldknap{
+    margin-left: 530px;
+   }
 }
