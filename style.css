@@ -155,17 +155,27 @@ main{
     margin: 50px;
 }
 
-.arrangement{
-    height: 240px;
-    width: 250px;
-    background-color:#eaeaea;
-    margin: 20px;
-    padding: 20px;
+.kasse{
+    position: relative;
 }
 
 .arrangementoverskrift{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.arrangement{
+    height: 240px;
+    width: 290px;
+    margin: 20px;
+    opacity: 60%;
 }
 
 .overskrift1{
