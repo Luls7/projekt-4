@@ -64,6 +64,7 @@ main{
    margin-top: 30px; 
    width: 100%;
    height: 300px;
+   margin-bottom: -150px;
  }
 
  .billedslide{
@@ -71,12 +72,34 @@ main{
  }
 
  .tekstblok{
-    position: absolute;
-    top: 260px;
-    left: 80px;
+    position: relative;
+    width: fit-content;
+    bottom: 20px;
+    left: 20px;
     background-color:#F4F4F4;
     opacity: 75%;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif; 
+ }
+
+ .iblok{
+    color: #00454F;
+    font-size: 20px;
+ }
+
+ .blok{
+    font-weight: 400;
+    margin-top: -22px;
+ }
+
+ .fader{
+    animation-name: fader;
+    animation-duration: 1.5s;
+ }
+
+ @keyframes fader{
+    from{opacity: .4;}
+    to{opacity: 1;}
  }
 
   /* prikkerne under billedet */
@@ -177,6 +200,15 @@ main{
     color: black;
 }
 
+.læsknap:hover{
+    background-color: #00454F;
+    color: #ffffff;
+}
+
+.læsknap a:hover{
+    color: #ffffff;
+}
+
 .mereknap{
     background-color: #E4F1F0;
     border: none;
@@ -193,6 +225,15 @@ main{
 .mereknap a{
     text-decoration: none;
     color: black;
+}
+
+.mereknap:hover{
+    background-color: #00454F;
+    color: #ffffff;
+}
+
+.mereknap a:hover{
+    color: #ffffff;
 }
 
 .arrangementerforside{
@@ -842,6 +883,10 @@ i{
         margin-left: 17px;
     }  
 
+    .tekstblok{
+        left: 35px;
+    }
+
     .kommende{
         font-size: 40px;
         margin-left: 20px;
@@ -1032,6 +1077,7 @@ i{
     margin-left: 50px;
     margin-top: 17px;
 }
+
 .billedeknap{
     height: 30px;
     width: 110px;
@@ -1049,5 +1095,4 @@ i{
     margin-left: 50px; 
 }
 }
-
 
