@@ -93,6 +93,16 @@ main{
     margin-top: -20px;
  }
 
+  .fader {
+    animation-name: fader;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fader {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
   /* prikkerne under billedet */
   .prik {
     height: 15px;
@@ -190,6 +200,15 @@ main{
     color: black;
 }
 
+.læsknap a:hover{
+    color: #ffffff;
+}
+
+.læsknap:hover{
+    background-color: #00454F;
+    color: #ffffff;
+}
+
 .mereknap{
     background-color: #E4F1F0;
     border: none;
@@ -206,6 +225,15 @@ main{
 .mereknap a{
     text-decoration: none;
     color: black;
+}
+
+.mereknap:hover{
+    background-color: #00454F;
+    color: #ffffff;
+}
+
+.mereknap a:hover{
+    color: #ffffff;
 }
 
 .arrangementerforside{
