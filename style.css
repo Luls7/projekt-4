@@ -548,8 +548,6 @@ main{
 }
 
 /* -- MIN PROFIL -- */
-
-
 .mingridboks{
     display: grid;
     justify-content: center;
@@ -573,22 +571,43 @@ main{
     background-color: #eaeaea;
 }
 
-.minindenibokse3{
-    display: grid;
-    justify-content: center;
-    margin: 30px;
-    height: 200px;
-    width: 400px;
-    background-color: #eaeaea;
-}
-
 .tilmeldtearrangementer{
+    display: grid;
+    grid-auto-columns: auto auto;
     height: 180px;
     width: 360px;
     background-color: white;
     opacity: 70%;
     border-radius: 30px;
     margin: 10px;
+}
+
+.overskrifttilmeldt{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color:#00454F;
+    margin: 20px;
+}
+
+.dato{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
+.tid{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    color:#00454F;
+    font-size: 15px;
+}
+
+.countdown{
+    display: grid;
+    height: 50px;
+    width: 500px;
 }
 
 /* -- FOOTER -- */
@@ -791,5 +810,20 @@ i{
     margin-left: 535px;
    }
 
+   /* MIN PROFIL */
+   .minindenibokse1{
+    height: 200px;
+    width: 1050px;
+   }
+
+   .minindenibokse2{
+    height: 200px;
+    width: 1050px;
+   }
+   
+   .tilmeldtearrangementer{
+    height: 180px;
+    width: 1000px;
+   }
   
 }
