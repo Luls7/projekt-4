@@ -61,6 +61,7 @@ main{
   .mySlides {display: none;}
  
  .billedeAmalie {
+   margin-top: 30px; 
    width: 100%;
    height: 300px;
  }
@@ -90,7 +91,7 @@ main{
   }
 
   .active {
-    background-color: #717171;
+    background-color:#7293A0;
   }
 
 /* -- MAIN -- */
@@ -506,8 +507,14 @@ i{
 
 /* TABLETVERSION */
 @media only screen and (min-width: 600px){
+    .billedeAmalie{
+        width: 600px;
+        height: 350px;
+    }
+
     .kommende{
         font-size: 28px;
+        margin-left: 75px;
     }
 
     .arraoverblik{
@@ -516,6 +523,7 @@ i{
         justify-content: center;
         margin: 50px;
     }
+    
     .overskrifter{
         grid-column: 1 / span 2;
     }
@@ -587,9 +595,14 @@ i{
         display: none;
       }
 
+    .billedeAmalie{
+        width: 1100px;
+        height: 450px;
+    }  
+
     .kommende{
         font-size: 40px;
-        margin-left: 18px;
+        margin-left: 98px;
     }  
 
     .indenibokse{
