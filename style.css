@@ -275,138 +275,6 @@ main{
     margin-top: 10px;
 }
 
- /* OPRET ARRANGEMENT */
-
- .overskriftopret{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    font-style: italic;
-    color:#00454F;
-    height: 50px;
-    width: 100%;
-    margin: 30px;
-}
-
-.opretindenigrid1{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.opretindenigrid2{
-    display: grid;
-    height: 500px;
-}
-
-.opretindenigrid3{
-    display: grid;
-}
-
-.arrangementinput{
-    width: 81%;
-    height: 30px;
-    border: none;
-    background-color:#00454f26; 
-}
-
-.indtastarrangement{
-    grid-column: 1 / span 2;
-    height: 30px;
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.indtastdato{
-    height: 30px;
-    width: 65%;
-    background-color:#00454f26; 
-    margin-left: 30px;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.indtasttidspunkt{
-    height: 30px;
-    width: 65%;
-    padding: 5px;
-    background-color:#00454f26;  
-    font-family: 'Montserrat', sans-serif;
-}
-
-.placeringinput{
-    width: 96%;
-    height: 30px;
-    border: none;
-    background-color:#00454f26;
-}
-.indtastplacering{
-    grid-column: 1 / span 2;
-    height: 30px;
-    width: 80%; 
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.kategori{
-    grid-column: 1 / span 2;
-    height: 30px;
-    width: 32%;
-    padding: 5px;
-    background-color:#00454f26; 
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.beskrivelseinput{
-    width: 80%;
-    border: none;
-    height: 200px;
-    background-color:#00454f26;  
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-.indtastbeskrivelse{
-    grid-column: 1 / span 2;
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.billede{
-    height: 400px;
-    width: 400px;
-    background-color: white;
-}
-.billedeknap{
-   height: 30px;
-   width: 110px;
-   padding: 5px;
-   margin-bottom: 55px;
-   border-radius: 10px;
-   background-color:#00454f26; 
-   font-family: 'Montserrat', sans-serif;
-}
-
-.opretknap{
-    height: 50px;
-    width: 250px;
-    padding: 15px;
-    padding-left: 30px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    background-color:#00454F;
-    font-family:'Montserrat', sans-serif;
-    font-style: italic;
-    color: white;
-    font-weight: 600;
-
-}
-
-.opretknap:hover{
-    background-color: #7293A0;
-}
-
-
 /* LOG IND SIDE */
 
 .form{
@@ -825,5 +693,134 @@ i{
     height: 180px;
     width: 1000px;
    }
-  
+ /* OPRET ARRANGEMENT */
+
+ .overskriftopret{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    color:#00454F;
+    height: 50px;
+    width: 100%;
+    margin: 30px;
+}
+
+.opretindenigrid1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.opretindenigrid2{
+    display: grid;
+    height: 500px;
+}
+
+.opretindenigrid3{
+    display: grid;
+}
+
+.arrangementinput{
+    width: 81%;
+    height: 30px;
+    border: none;
+    background-color:#00454f26; 
+}
+
+.indtastarrangement{
+    grid-column: 1 / span 2;
+    height: 30px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.indtastdato{
+    height: 30px;
+    width: 65%;
+    background-color:#00454f26; 
+    margin-left: 30px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.indtasttidspunkt{
+    height: 30px;
+    width: 65%;
+    padding: 5px;
+    background-color:#00454f26;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.placeringinput{
+    width: 96%;
+    height: 30px;
+    border: none;
+    background-color:#00454f26;
+}
+.indtastplacering{
+    grid-column: 1 / span 2;
+    height: 30px;
+    width: 80%; 
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.kategori{
+    grid-column: 1 / span 2;
+    height: 30px;
+    width: 32%;
+    padding: 5px;
+    background-color:#00454f26; 
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.beskrivelseinput{
+    width: 80%;
+    border: none;
+    height: 200px;
+    background-color:#00454f26;  
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.indtastbeskrivelse{
+    grid-column: 1 / span 2;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.billede{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+.billedeknap{
+   height: 30px;
+   width: 110px;
+   padding: 5px;
+   margin-bottom: 55px;
+   border-radius: 10px;
+   background-color:#00454f26; 
+   font-family: 'Montserrat', sans-serif;
+}
+
+.opretknap{
+    height: 50px;
+    width: 250px;
+    padding: 15px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color:#00454F;
+    font-family:'Montserrat', sans-serif;
+    font-style: italic;
+    color: white;
+    font-weight: 600;
+
+}
+
+.opretknap:hover{
+    background-color: #7293A0;
+}  
 }
