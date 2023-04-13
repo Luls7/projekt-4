@@ -289,6 +289,7 @@ main{
 
 .opretindenigrid1{
     display: grid;
+    grid-template-columns: auto auto;
 }
 
 .opretindenigrid2{
@@ -397,6 +398,12 @@ main{
     font-family:'Montserrat', sans-serif;
     font-style: italic;
     color: white;
+    font-weight: 600;
+
+}
+
+.opretknap:hover{
+    background-color: #7293A0;
 }
 
 
