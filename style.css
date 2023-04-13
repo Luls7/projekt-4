@@ -612,6 +612,10 @@ i{
 
 /* TABLETVERSION */
 @media only screen and (min-width: 600px){
+    .kommende{
+        font-size: 28px;
+    }
+
     .arraoverblik{
         display: grid;
         grid-template-columns: auto auto;
@@ -688,6 +692,11 @@ i{
     .topnav {
         display: none;
       }
+
+    .kommende{
+        font-size: 40px;
+        margin-left: 18px;
+    }  
 
     .indenibokse{
         height: 300px;
