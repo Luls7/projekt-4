@@ -655,8 +655,6 @@ main{
 .tilmeldtearrangementer{
     display: grid;
     justify-content: center;
-    grid-template-columns: auto auto;
-    column-gap: 150px;
     height: auto;
     width: 360px;
     background-color: white;
@@ -666,7 +664,6 @@ main{
 }
 
 .overskrifttilmeldt{
-    grid-column: 1 / span 2;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     margin-left: 35px;
@@ -675,7 +672,6 @@ main{
 }
 
 .datominprofil{
-    grid-column: 1 / span 2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-left: 35px;
@@ -683,8 +679,6 @@ main{
 }
 
 .tidminprofil{
-    grid-row: 3;
-    grid-column: 1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: smaller;
@@ -694,8 +688,6 @@ main{
 }
 
 .countdown{
-    grid-row: 3/ span 2;
-    grid-column: 3;
     margin: none;
     height: 60px;
     width: 320px;
@@ -712,7 +704,6 @@ main{
 }
 
 .læsmereknap{
-    grid-column: 1;
     background-color: #E4F1F0;
     border: none;
     border-radius: 10px;
@@ -1198,6 +1189,31 @@ main{
     height: auto;
     width: 850px;
 }
+
+
+.overskrifttilmeldt{
+    grid-column: 1 / span 2;
+}
+
+.datominprofil{
+    grid-column: 1 / span 2;
+}
+
+.tidminprofil{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.countdown{
+    grid-row: 3/ span 2;
+    grid-column: 3;
+}
+
+
+.læsmereknap{
+    grid-column: 1;
+}
+
 
 }
 
