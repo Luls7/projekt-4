@@ -601,10 +601,20 @@ main{
 
 /* -- MIN PROFIL -- */
 
+.overskriftminprofil{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    color:#00454F;
+    margin-left: 20px;
+    margin-bottom: none;
+    margin-top: 50px;
+}
+
 .mingridboks1{
     display: grid;
     justify-content: center;
-    margin: 30px;
+    margin: 20px;
 }
 
 .minindenibokse1{
@@ -628,6 +638,7 @@ main{
 .tilmeldtearrangementer{
     display: grid;
     justify-content: center;
+    grid-template-columns: auto auto;
     height: auto;
     width: 360px;
     background-color: white;
@@ -637,6 +648,7 @@ main{
 }
 
 .overskrifttilmeldt{
+    grid-column: 1 / span 2;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     margin-left: 35px;
@@ -651,6 +663,7 @@ main{
 }
 
 .tidminprofil{
+    grid-column: 1 / span 2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: smaller;
