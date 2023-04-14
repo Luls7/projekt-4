@@ -47,3 +47,23 @@ window.onclick = function(event) {
     }
   }
 }
+
+function changeColor(element, color) {
+  element.style.backgroundColor = color; 
+}
+function myFunction3() {
+  document.getElementById("contenttidspunkt").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.droptidspunkt')) {
+    var dropdowns = document.getElementsByClassName("help2");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
