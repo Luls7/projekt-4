@@ -601,8 +601,7 @@ main{
 
 /* -- MIN PROFIL -- */
 
-
-.mingridboks{
+.mingridboks1{
     display: grid;
     justify-content: center;
 }
@@ -612,7 +611,7 @@ main{
     justify-content: center;
     margin: 30px;
     background: url("billeder/kreavaerkstedlille.png");
-    height: 200px;
+    height: 300px;
     width: 400px;
 }
 
@@ -620,27 +619,55 @@ main{
     display: grid;
     justify-content: center;
     margin: 30px;
-    height: 200px;
-    width: 400px;
-    background-color: #eaeaea;
-}
-
-.minindenibokse3{
-    display: grid;
-    justify-content: center;
-    margin: 30px;
-    height: 200px;
+    height: 300px;
     width: 400px;
     background-color: #eaeaea;
 }
 
 .tilmeldtearrangementer{
-    height: 180px;
+    display: grid;
+    justify-content: center;
+    height: 260px;
     width: 360px;
     background-color: white;
-    opacity: 70%;
+    opacity: 80%;
     border-radius: 30px;
-    margin: 10px;
+    margin: 20px;
+}
+
+.overskrifttilmeldt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    color:#00454F;
+}
+
+.datominprofil{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.tidminprofil{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+    margin-left: 20px;
+}
+
+.countdown{
+    margin: none;
+    height: 60px;
+    width: 340px;
+    background-color: #00454F;
+    border-radius: 20px;
+}
+
+.countdowntekst{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    color: white;
 }
 
 /* -- FOOTER -- */
@@ -1094,5 +1121,25 @@ i{
     margin-bottom: 60px;
     margin-left: 50px; 
 }
+
+/* MIN PROFIL */
+
+
+.minindenibokse1{
+    height: 200px;
+    width: 900px;
 }
 
+.minindenibokse2{
+    height: 200px;
+    width: 900px;
+}
+
+.tilmeldtearrangementer{
+    height: 180px;
+    width: 900px;
+}
+
+}
+
+}
