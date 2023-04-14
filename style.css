@@ -604,22 +604,23 @@ main{
 .mingridboks1{
     display: grid;
     justify-content: center;
+    margin: 30px;
 }
 
 .minindenibokse1{
+    margin-bottom: 30px;
     display: grid;
     justify-content: center;
-    margin: 30px;
+    margin: none;
     background: url("billeder/kreavaerkstedlille.png");
-    height: 300px;
+    height: auto;
     width: 400px;
 }
 
 .minindenibokse2{
     display: grid;
     justify-content: center;
-    margin: 30px;
-    height: 300px;
+    height: auto;
     width: 400px;
     background-color: #eaeaea;
 }
@@ -627,7 +628,7 @@ main{
 .tilmeldtearrangementer{
     display: grid;
     justify-content: center;
-    height: 260px;
+    height: auto;
     width: 360px;
     background-color: white;
     opacity: 80%;
@@ -638,29 +639,32 @@ main{
 .overskrifttilmeldt{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 35px;
     color:#00454F;
 }
 
 .datominprofil{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-bottom: none;
 }
 
 .tidminprofil{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: smaller;
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-bottom: none;
 }
 
 .countdown{
     margin: none;
     height: 60px;
-    width: 340px;
+    width: 320px;
     background-color: #00454F;
     border-radius: 20px;
+    margin: 30px;
 }
 
 .countdowntekst{
@@ -668,6 +672,31 @@ main{
     font-weight: 500;
     margin: 20px;
     color: white;
+}
+
+.læsmereknap{
+    background-color: #E4F1F0;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.læsmereknap a{
+    text-decoration: none;
+    color: black;
+}
+
+.læsmereknap:hover{
+    background-color: #00454F;
+    color: #ffffff;
+}
+
+.læsmereknap a:hover{
+    color: #ffffff;
 }
 
 /* -- FOOTER -- */
@@ -686,14 +715,6 @@ main{
    text-align: center;
    margin: 0px;
 }
-
-i{
-    font-size: 30px;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
-
 
 /* TABLETVERSION */
 @media only screen and (min-width: 600px){
