@@ -27,18 +27,17 @@ function kørSlide() {
   setTimeout(kørSlide, 4000); // skift ved 4 sek
 }
 
+
 function changeColor(element, color) {
   element.style.backgroundColor = color; 
 }
-
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+function myFunction2() {
+  document.getElementById("fml").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropdato')) {
-    var dropdowns = document.getElementsByClassName("drop-content");
+    var dropdowns = document.getElementsByClassName("help");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];

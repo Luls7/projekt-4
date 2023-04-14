@@ -370,7 +370,38 @@ main{
     border: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    cursor: pointer;
 }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .help {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .help a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .help a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
 
 .droptidspunkt:hover{
     background-color: #7293A0;
