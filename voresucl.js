@@ -32,7 +32,7 @@ function changeColor(element, color) {
   element.style.backgroundColor = color; 
 }
 function myFunction2() {
-  document.getElementById("fml").classList.toggle("show");
+  document.getElementById("contentdato").classList.toggle("show");
 }
 
 window.onclick = function(event) {
