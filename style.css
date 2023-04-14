@@ -1147,18 +1147,18 @@ main{
 
 
 .minindenibokse1{
-    height: 200px;
+    height: auto;
     width: 900px;
 }
 
 .minindenibokse2{
-    height: 200px;
+    height: auto;
     width: 900px;
 }
 
 .tilmeldtearrangementer{
-    height: 180px;
-    width: 900px;
+    height: auto;
+    width: 850px;
 }
 
 }
