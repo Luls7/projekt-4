@@ -41,10 +41,20 @@
                 <h2 class="overskriftopret">Opret arrangement</h2>
                 <div class="opretindenigrid1">
                     <div class="indtastarrangement"> Indtast titel på arrangement... <br><input class=arrangementinput></div>
-                    <div class="indtastdato">Vælg dato</div>
-                    <div class="indtasttidspunkt">Vælg tidspunkt</div>
+                    
+                    <button onclick="myFunction()" class="dropdato">Vælg dato</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    
+                    <button onclick="minfunktion()" class="droptidspunkt">Vælg tidspunkt</button>
+
                     <div class="indtastplacering">Indtast placering <br><input class="placeringinput"></div>
-                    <div class="kategori">Vælg kategori</div>
+                    
+                    <button onclick="minfunktion()" class="dropkategori">Vælg kategori</button>
+
                     <div class="indtastbeskrivelse">Indtast beskrivelse <br><input class="beskrivelseinput"></div>
                 </div>
                 <div class="opretindenigrid2">

@@ -357,23 +357,34 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 
-.indtastdato{
-    height: 30px;
-    width: 70%;
-    background-color:#00454f26; 
-    margin-left: 40px;
-    margin-top: 40px;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
+.dropdato:hover{
+    background-color: #7293A0;
 }
 
-.indtasttidspunkt{
+.dropdato{
+    height: 30px;
+    width: 60%;
+    background-color:#00454f26; 
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.droptidspunkt:hover{
+    background-color: #7293A0;
+}
+
+.droptidspunkt{
     height: 30px;
     width: 80%;
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
+    border: none;
     background-color:#00454f26;  
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .placeringinput{
@@ -387,19 +398,25 @@ main{
     height: 30px;
     width: 83%; 
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.kategori{
+.dropkategori:hover{
+    background-color: #7293A0;
+}
+
+.dropkategori{
     grid-column: 1 / span 2;
     height: 30px;
     width: 35%;
     padding: 5px;
     background-color:#00454f26; 
+    border: none;
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .beskrivelseinput{
@@ -823,19 +840,19 @@ main{
         margin-left: 50px;
     }
 
-    .indtastdato{
+    .dropdato{
         height: 30px;
         width: 70%; 
         margin-left: 50px;
-        margin-top: 40px;
+        margin-top: 30px;
         padding: 5px;
     }
 
-    .indtasttidspunkt{
+    .droptidspunkt{
         height: 30px;
         width: 80%;
         padding: 5px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .placeringinput{
@@ -850,13 +867,13 @@ main{
         margin-top: 20px;
     }
 
-    .kategori{
+    .dropkategori{
         grid-column: 1 / span 2;
         height: 30px;
         width: 35%;
         padding: 5px;
         margin-left: 50px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .beskrivelseinput{
@@ -1092,19 +1109,19 @@ main{
     margin-left: 50px;
 }
 
-.indtastdato{
+.dropdato{
     height: 30px;
     width: 70%; 
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 5px;
 }
 
-.indtasttidspunkt{
+.droptidspunkt{
     height: 30px;
     width: 80%;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .placeringinput{
@@ -1120,13 +1137,13 @@ main{
     margin-top: 10px;
 }
 
-.kategori{
+.dropkategori{
     grid-column: 1 / span 2;
     height: 30px;
     width: 35%;
     padding: 5px;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .beskrivelseinput{
