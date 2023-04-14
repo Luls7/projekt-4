@@ -470,6 +470,7 @@ main{
     margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .dropdown3 {
@@ -946,7 +947,6 @@ main{
         margin-top: 20px;
     }
 
-
     .dropkategori{
         grid-column: 1 / span 2;
         height: 30px;
@@ -1234,11 +1234,16 @@ main{
 .dropkategori{
     grid-column: 1 / span 2;
     height: 30px;
-    width: 35%;
+    width: 70%;
     padding: 5px;
     margin-left: 50px;
     margin-top: 20px;
 }
+
+.help3 {
+    min-width: 184px;
+    margin-left: 50px;
+  }
 
 .beskrivelseinput{
     width: 88%;
