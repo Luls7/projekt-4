@@ -27,7 +27,25 @@ function kørSlide() {
   setTimeout(kørSlide, 4000); // skift ved 4 sek
 }
 
+function changeColor(element, color) {
+  element.style.backgroundColor = color; 
+}
+function myFunction2() {
+  document.getElementById("contentdato").classList.toggle("show");
+}
 
+window.onclick = function(event) {
+  if (!event.target.matches('.dropdato')) {
+    var dropdowns = document.getElementsByClassName("help");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
 
 //Mathilde
 var countDownDate = new Date("Jun 1, 2023 00:00:00").getTime();
@@ -58,27 +76,6 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-
-
-function changeColor(element, color) {
-  element.style.backgroundColor = color; 
-}
-function myFunction2() {
-  document.getElementById("contentdato").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.dropdato')) {
-    var dropdowns = document.getElementsByClassName("help");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 
 function changeColor(element, color) {
   element.style.backgroundColor = color; 
