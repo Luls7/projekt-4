@@ -77,6 +77,7 @@ var x = setInterval(function() {
 }, 1000);
 
 
+// Luana
 function changeColor(element, color) {
   element.style.backgroundColor = color; 
 }
