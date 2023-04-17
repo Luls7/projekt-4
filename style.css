@@ -357,20 +357,26 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 
-.dropdato:hover{
-    background-color: #7293A0;
-}
 
 .dropdato{
     height: 30px;
-    width: 60%;
-    background-color:#00454f26; 
+    width: 70%;
     margin-left: 40px;
     margin-top: 30px;
-    border: none;
+}
+
+.kalender{
+    background-color:#00454f26;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 15px;
     cursor: pointer;
+}
+
+.kalender:hover{
+    background-color: #7293A0;
 }
   
   .dropdown1 {
@@ -403,11 +409,12 @@ main{
     background-color: #7293A0;
     }
 
-    .droptidspunkt{
+.droptidspunkt{
     height: 30px;
-    width: 80%;
+    width: 82%;
     padding: 5px;
     margin-top: 30px;
+    margin-right: 80px;
     border: none;
     background-color:#00454f26;  
     font-family: 'Montserrat', sans-serif;
@@ -418,27 +425,29 @@ main{
 .dropdown2 {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .help2 {
+.help2 {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 150px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
   .help2 a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
-  .help2 a:hover {background-color: #ddd;}
+.help2 a:hover {
+    background-color: #ddd;
+}
   
-  .show {display:block;}
+.show {display:block;}
 
 .placeringinput{
     width: 96%;
@@ -476,28 +485,30 @@ main{
 .dropdown3 {
     position: relative;
     display: inline-block;
-  }
+}
   
   .help3 {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 151px;
+    min-width: 127px;
     margin-left: 40px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-  .help3 a {
+.help3 a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
-  .help3 a:hover {background-color: #ddd;}
+.help3 a:hover {
+    background-color: #ddd;
+}
   
-  .show {display:block;}
+.show {display:block;}
 
 .beskrivelseinput{
     width: 88%;
@@ -521,6 +532,7 @@ main{
     margin-left: 40px;
     margin-top: 20px;
 }
+
 .billedeknap{
    height: 30px;
    width: 110px;
@@ -530,6 +542,7 @@ main{
    border-radius: 10px;
    background-color:#00454f26; 
    font-family: 'Montserrat', sans-serif;
+   cursor: pointer;
 }
 
 .billedeknap:hover{
@@ -549,6 +562,7 @@ main{
     font-style: italic;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .opretknap:hover{
@@ -913,32 +927,34 @@ main{
 
     .dropdato{
         height: 30px;
-        width: 70%; 
-        margin-left: 50px;
-        margin-top: 30px;
+        width: 74%; 
+        margin-left: 46px;
+        margin-top: 26px;
         padding: 5px;
     }
+    
+    .kalender{
+        width: 100%;
+        height: 30px;
 
-      .help {
-        min-width: 223px;
-        margin-left: 50px;
-      }
+    }
 
     .droptidspunkt{
         height: 30px;
-        width: 78%;
+        width: 80%;
         padding: 5px;
         margin-top: 30px;
     }
 
     .help2 {
-        min-width: 220px;
-      }
+        min-width: 248px;
+    }
 
     .placeringinput{
         width: 96%;
         height: 30px;
     }
+
     .indtastplacering{
         grid-column: 1 / span 2;
         height: 30px;
@@ -957,7 +973,7 @@ main{
     }
 
     .help3 {
-        min-width: 224px;
+        min-width: 203px;
         margin-left: 50px;
       }
 
@@ -1149,8 +1165,8 @@ main{
     margin-left: 535px;
    }
 
-   /* OPRET ARRANGEMENT */
-   .udenomboksopret{
+/* OPRET ARRANGEMENT */
+.udenomboksopret{
     display: grid;
     height: auto;
     width: 1200px;
@@ -1184,7 +1200,7 @@ main{
 }
 
 .arrangementinput{
-    width: 89%;
+    width: 87%;
     height: 30px;
 }
 
@@ -1197,15 +1213,16 @@ main{
 .dropdato{
     height: 30px;
     width: 70%; 
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 46px;
+    margin-top: 15px;
     padding: 5px;
 }
 
-.help {
-    min-width: 184px;
-    margin-left: 50px;
-  }
+.kalender{
+    width: 100%;
+    height: 30px;
+
+}
 
 .droptidspunkt{
     height: 30px;
@@ -1215,7 +1232,7 @@ main{
 }
 
 .help2 {
-    min-width: 175px;
+    min-width: 218px;
   }
 
 .placeringinput{
@@ -1241,7 +1258,7 @@ main{
 }
 
 .help3 {
-    min-width: 184px;
+    min-width: 180px;
     margin-left: 50px;
   }
 
