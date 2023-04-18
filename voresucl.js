@@ -39,29 +39,32 @@ function myFunction() {
     }
   }
 
-  let slideShow = 0;
-kørSlide();
+// Amalie - galleri //
+let galleriShow = 0;
+runGalleri();
 
-function kørSlide() {
+function runGalleri() {
   let i;
-  let slides = document.getElementsByClassName("billedeslide");
-  let prikker = document.getElementsByClassName("prik");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  let galleri = document.getElementsByClassName("billedeslide");
+  let prikkerne = document.getElementsByClassName("prik");
+  for (i = 0; i < galleri.length; i++) {
+    galleri[i].style.display = "none";  
   }
-  slideShow++;
-  if (slideShow > slides.length) {slideShow = 1}    
-  for (i = 0; i < prikker.length; i++) {
-    prikker[i].className = prikker[i].className.replace(" active", "");
+  galleriShow++;
+  if (galleriShow > galleri.length) {galleriShow = 1}    
+  for (i = 0; i < prikkerne.length; i++) {
+    prikkerne[i].className = prikkerne[i].className.replace(" active", "");
   }
-  slides[slideShow-1].style.display = "block";  
-  prikker[slideShow-1].className += " active";
-  setTimeout(kørSlide, 4000); // skift ved 4 sek
+  galleri[galleriShow-1].style.display = "block";  
+  prikkerne[galleriShow-1].className += " active";
+  setTimeout(runGalleri, 4000); // skift ved 4 sek
 }
 
-function changeColor(element, color) {
-  element.style.backgroundColor = color; 
+function skiftFarve(element, Farve) {
+  element.style.backgroundColor = Farve; 
 }
+// galleri slut //
+
 function myFunction2() {
   document.getElementById("contentdato").classList.toggle("show");
 }
