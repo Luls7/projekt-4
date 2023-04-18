@@ -38,7 +38,8 @@ function myFunction() {
     }
   }
 
-  let slideShow = 0;
+// Amalie - galleri //
+let slideShow = 0;
 kørSlide();
 
 function kørSlide() {
@@ -61,6 +62,8 @@ function kørSlide() {
 function changeColor(element, color) {
   element.style.backgroundColor = color; 
 }
+// galleri slut //
+
 function myFunction2() {
   document.getElementById("contentdato").classList.toggle("show");
 }
