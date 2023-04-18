@@ -785,7 +785,7 @@ main{
     margin: none;
     height: 60px;
     width: 320px;
-    background-color: #00454F;
+    background-color: #00454F; 
     border-radius: 20px;
     margin: 30px;
 }
@@ -794,7 +794,7 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 20px;
-    color: white;
+    color: rgb(7, 7, 7);
 }
 
 .læsmereknap{
