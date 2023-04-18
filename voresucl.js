@@ -90,10 +90,10 @@ function myFunction3() {
 
 window.onclick = function(event) {
   if (!event.target.matches('.droptidspunkt')) {
-    var dropdowns = document.getElementsByClassName("help2");
-    var i;
+    let dropdowns = document.getElementsByClassName("help2");
+    let i;
     for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
+      let openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
@@ -106,10 +106,10 @@ function myFunction4() {
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropkategori')) {
-    var dropdowns = document.getElementsByClassName("help3");
-    var i;
+    let dropdowns = document.getElementsByClassName("help3");
+    let i;
     for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
+      let openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
