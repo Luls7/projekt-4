@@ -781,10 +781,18 @@ main{
     margin-top: -5px;
 }
 
-.ur{
-    margin: none;
-    height: 60px;
-    width: 320px;
+#ur{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.boksrundtomcountdown{
+    height: 150px;
+    width: 400px;
     background-color: #00454F; 
     border-radius: 20px;
     margin: 30px;
@@ -795,6 +803,14 @@ main{
     font-weight: 500;
     margin: 20px;
     color: rgb(7, 7, 7);
+}
+
+.starter{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
 }
 
 .læsmereknap{

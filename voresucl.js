@@ -20,6 +20,7 @@ let x = setInterval(function() {
   document.getElementById("ur").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
+
   // Når countdown er ovre, vil der står dette...
   if (distance < 0) {
     clearInterval(x);
@@ -90,10 +91,10 @@ function myFunction3() {
 
 window.onclick = function(event) {
   if (!event.target.matches('.droptidspunkt')) {
-    let dropdowns = document.getElementsByClassName("help2");
-    let i;
+    var dropdowns = document.getElementsByClassName("help2");
+    var i;
     for (i = 0; i < dropdowns.length; i++) {
-      let openDropdown = dropdowns[i];
+      var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
@@ -106,10 +107,10 @@ function myFunction4() {
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropkategori')) {
-    let dropdowns = document.getElementsByClassName("help3");
-    let i;
+    var dropdowns = document.getElementsByClassName("help3");
+    var i;
     for (i = 0; i < dropdowns.length; i++) {
-      let openDropdown = dropdowns[i];
+      var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
