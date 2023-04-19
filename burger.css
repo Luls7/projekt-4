@@ -26,6 +26,7 @@ header {
     display: block;
     cursor: pointer;
     padding-top: 30px;
+    color: white;
   }
   
   #burgertoggle {
@@ -42,7 +43,7 @@ header {
   #burgertoggle div {
     width: 30px;
     height: 5px;
-    background-color: #ff00b7;
+    background-color: white;
     margin: 5px 0;
     border-radius: 33px;
     transition: transform 0.4s ease-in-out;

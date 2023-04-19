@@ -5,16 +5,16 @@ const menuPunkter = [
     {name: "Min profil", url: "/minprofil.html"},
   ];
   
-  const menuBoks = document.getElementById("menu-boks");
-  const menuBoksItem = document.getElementById("menu-boks-items")
+  const menuBoks = document.getElementById("menuboks");
+  const menuBoksItem = document.getElementById("menuboksitems")
   
   for (const item of menuPunkter) {
   
     const menuElement = document.createElement('div');
     menuElement.className = "menuelement";
-    menuElement.innerText = Element.name;
+    menuElement.innerText = item.name;
     menuElement.onclick = () => {
-      window.location.href = Element.url;
+      window.location.href = item.url;
     };
   
     menuBoksItem.appendChild(menuElement);
