@@ -11,7 +11,7 @@ const menuPunkter = [
   for (const item of menuPunkter) {
   
     const menuElement = document.createElement('div');
-    menuElement.className = "menu-element";
+    menuElement.className = "menuelement";
     menuElement.innerText = Element.name;
     menuElement.onclick = () => {
       window.location.href = Element.url;
@@ -21,7 +21,7 @@ const menuPunkter = [
   }
   
   const burgerToggle = document.createElement("button");
-  burgerToggle.id = 'burger-toggle';
+  burgerToggle.id = 'burgertoggle';
   burgerToggle.innerHTML = '<div></div><div></div><div></div>';
   burgerToggle.onclick = () => {
     if (menuBoks.style.display === 'block') {
