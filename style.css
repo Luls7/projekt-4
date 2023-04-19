@@ -704,7 +704,7 @@ main{
     height: 50px;
     margin-left: 40px;
     margin-top: -20px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .tilmeldknap:hover{
@@ -879,16 +879,17 @@ main{
         grid-column: 1 / span 2;
     }
 
-    .kreaboks{
-        grid-template-columns: 50% 50%;
+    .tekstiboks{
+        width: 600px;
     }
 
     .kreabillede{
-        margin: 20px;
+        width: 600px;
+        height: 300px;
     }
 
     .tilmeldknap{
-        margin-left: 380px;
+        margin-left: 200px;
     }
    
     .overskriftopret{
@@ -1165,7 +1166,12 @@ main{
 
     .tekstiboks{
         margin-top: -1px;
-        margin-left: 35px
+        margin-left: 15px;
+        width: 470px;
+    }
+
+    .kreaboks{
+        grid-template-columns: 50% 50%;
     }
 
     .kreaboks{
@@ -1173,13 +1179,14 @@ main{
     }
 
    .kreabillede{
-    width: 500px;
+    width: 400px;
     height: 400px;
-    margin-left: -80px;
+    margin-top: 25px;
+    margin-left: 40px;
    }
 
    .tilmeldknap{
-    margin-left: 535px;
+    margin-left: 595px;
    }
 
 /* OPRET ARRANGEMENT */
