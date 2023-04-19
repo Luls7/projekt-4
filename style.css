@@ -766,6 +766,14 @@ main{
     margin-bottom: -5px;
 }
 
+.overskrifttilmeldt2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-left: 35px;
+    color:#00454F;
+    margin-bottom: -5px;
+}
+
 .datominprofil{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -773,7 +781,23 @@ main{
     margin-bottom: none;
 }
 
+.datominprofil2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-bottom: none;
+}
+
 .tidminprofil{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+    margin-left: 35px;
+    margin-bottom: none;
+    margin-top: -5px;
+}
+
+.tidminprofil2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: smaller;
