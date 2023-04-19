@@ -790,12 +790,30 @@ main{
     font-weight: 500;
 }
 
+#ur2{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
 .boksrundtomcountdown{
     height: 150px;
     width: 400px;
     background-color: #00454F; 
     border-radius: 20px;
     margin: 30px;
+}
+
+
+.boksrundtomcountdown1{
+        height: 150px;
+        width: 400px;
+        background-color: #00454F; 
+        border-radius: 20px;
+        margin: 30px;
 }
 
 .countdowntekst{
@@ -812,6 +830,15 @@ main{
     color: white;
     font-size: 25px;
 }
+
+.starter1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+
 
 .læsmereknap{
     background-color: #E4F1F0;
