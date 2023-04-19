@@ -29,6 +29,7 @@ let x = setInterval(function() {
 }, 1000);
 
 
+//Nummer to
 let countDownDate = new Date("Jun 1, 2023 00:00:00").getTime();
 
 // Nedtællingen bliver opdateret hvert sekund
