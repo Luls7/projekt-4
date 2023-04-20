@@ -28,7 +28,15 @@ let x = setInterval(function() {
   }
 }, 1000);
 
+<<<<<<< HEAD
 // Define a function named myFunction
+=======
+
+
+
+
+
+>>>>>>> aae959c78bbaba55cf60419e0a24a81e01b58794
 function myFunction() {
   // Declare and assign the variable x using the let keyword to get the element with the ID "myLinks"
   let x = document.getElementById("myLinks");

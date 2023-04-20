@@ -670,6 +670,7 @@ main{
 
 .tekstiboks{
   margin: auto;
+  width: 300px;
 }
 
 .overskrift{
@@ -703,7 +704,7 @@ main{
     height: 50px;
     margin-left: 40px;
     margin-top: -20px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .tilmeldknap:hover{
@@ -765,12 +766,14 @@ main{
     margin-bottom: -5px;
 }
 
+
 .datominprofil{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-left: 35px;
     margin-bottom: none;
 }
+
 
 .tidminprofil{
     font-family: 'Montserrat', sans-serif;
@@ -781,7 +784,9 @@ main{
     margin-top: -5px;
 }
 
-#ur{
+
+
+.ur{
     display: grid;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -790,12 +795,23 @@ main{
     font-weight: 500;
 }
 
+
+
 .boksrundtomcountdown{
     height: 150px;
     width: 400px;
     background-color: #00454F; 
     border-radius: 20px;
     margin: 30px;
+}
+
+
+.boksrundtomcountdown1{
+        height: 150px;
+        width: 400px;
+        background-color: #00454F; 
+        border-radius: 20px;
+        margin: 30px;
 }
 
 .countdowntekst{
@@ -878,16 +894,17 @@ main{
         grid-column: 1 / span 2;
     }
 
-    .kreaboks{
-        grid-template-columns: 50% 50%;
+    .tekstiboks{
+        width: 600px;
     }
 
     .kreabillede{
-        margin: 20px;
+        width: 600px;
+        height: 300px;
     }
 
     .tilmeldknap{
-        margin-left: 380px;
+        margin-left: 200px;
     }
    
     .overskriftopret{
@@ -1164,7 +1181,12 @@ main{
 
     .tekstiboks{
         margin-top: -1px;
-        margin-left: 35px
+        margin-left: 15px;
+        width: 470px;
+    }
+
+    .kreaboks{
+        grid-template-columns: 50% 50%;
     }
 
     .kreaboks{
@@ -1172,13 +1194,14 @@ main{
     }
 
    .kreabillede{
-    width: 500px;
+    width: 400px;
     height: 400px;
-    margin-left: -80px;
+    margin-top: 25px;
+    margin-left: 40px;
    }
 
    .tilmeldknap{
-    margin-left: 535px;
+    margin-left: 595px;
    }
 
 /* OPRET ARRANGEMENT */
