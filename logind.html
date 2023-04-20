@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e731c0393a.js" crossorigin="anonymous"></script>
     <script src="logind.js"></script>
+    <script src="voresucl.js"></script>
 </head>
 <body>
     <header>
@@ -43,10 +44,10 @@
                 <div class="glass-effect login-card">
                     <form>
                         <label for="brugernavn">UCL brugernavn</label><br>
-                        <input id="brugernavn" class="login-input" type="text" placeholder="Brugernavn"><br><br>
-                        <label for="password-input">UCL kodeord</label><br>
-                        <input id="password-input" class="login-input" type="password" placeholder="Kodeord"><br><br>
-                        <p id="invalid-input" class="invalid-input"></p><br>
+                        <input id="brugernavn" class="logindNavne" type="text" placeholder="Brugernavn"><br><br>
+                        <label for="kodeord">UCL kodeord</label><br>
+                        <input id="kodeord" class="logindNavne" type="password" placeholder="Kodeord"><br><br>
+                        <p id="forkert" class="forkert"></p><br>
                         <div class="login-card-buttons">
                             <button id="logind-knap" class="primary-button cursor-pointer" type="submit">Log ind</button>
                         </div>
