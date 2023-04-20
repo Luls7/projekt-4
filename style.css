@@ -220,10 +220,13 @@ main{
     width: 100px;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
+    font-size: small;
     font-weight: 500;
     position: relative;
     left: 47px;
     bottom: 80px;
+    padding: 7px;
+    padding-left: 12px;
 }
 
 .mereknap a{
