@@ -849,20 +849,7 @@ label{
 }
 
 .laesmereknap{
-    background-color: #E4F1F0;
-    border: none;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    margin-left: 50px;
-    position: absolute; 
-    left: 950px;
-    top: 543px;
-}
-
-.hokuspokus{
+    text-decoration: none; 
     background-color: #E4F1F0;
     border: none;
     border-radius: 10px;
@@ -873,13 +860,14 @@ label{
     margin-left: 50px;
     position: relative; 
     color: #0f0f0f;
-    left: 10px;
-    top: 10px;
-    text-decoration: none;
+    left: 15px;
+    top: -10px; 
+    padding: 5px;
 }
 
-.hokuspokus a{
+.laesmereknap a{
     text-decoration: none;
+    color: #0f0f0f;
 }
 
 .laesmereknap:hover{
@@ -1422,18 +1410,10 @@ label{
 
 .laesmereknap{
     grid-column: 1;
-    top: 630px;
-    left: 837px;
-}
-
-.hokuspokus{
     top: -37px;
-    left: 427px;
+    left: -10px;
 }
 
-.hokuspokus a{
-    text-decoration: none;
-}
 }
 
 }
