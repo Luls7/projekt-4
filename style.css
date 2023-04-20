@@ -729,7 +729,6 @@ label{
     font-style: italic;
     color:#00454F;
     margin-left: 20px;
-    margin-bottom: none;
     margin-top: 50px;
 }
 
@@ -739,11 +738,16 @@ label{
     margin: 20px;
 }
 
+.mingridboks2{
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+
 .minindenibokse1{
     margin-bottom: 30px;
     display: grid;
     justify-content: center;
-    margin: none;
     background: url("billeder/kreavaerkstedlille.png");
     height: auto;
     width: 400px;
@@ -781,7 +785,6 @@ label{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-left: 35px;
-    margin-bottom: none;
 }
 
 
@@ -790,7 +793,6 @@ label{
     font-weight: 500;
     font-size: smaller;
     margin-left: 35px;
-    margin-bottom: none;
     margin-top: -5px;
 }
 
