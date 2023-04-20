@@ -41,6 +41,7 @@ function skiftFarve(element, Farve) {
 }
 // galleri slut //
 
+// Luana //
 function myFunction2() {
   document.getElementById("contentdato").classList.toggle("show");
 }
@@ -58,12 +59,6 @@ window.onclick = function(event) {
   }
 } 
 
-
-
-// Luana
-function changeColor(element, color) {
-  element.style.backgroundColor = color; 
-}
 function myFunction3() {
   document.getElementById("contenttidspunkt").classList.toggle("show");
 }
