@@ -849,6 +849,7 @@ label{
 }
 
 .laesmereknap{
+    text-align:center;
     text-decoration: none; 
     background-color: #E4F1F0;
     border: none;
@@ -856,10 +857,11 @@ label{
     width: 100px;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 30px;
     color: #0f0f0f;
-    padding: 5px;
+    padding-top: 8px;
+    font-size: 12px;
 }
 
 .laesmereknap a{
