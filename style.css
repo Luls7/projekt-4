@@ -754,12 +754,14 @@ label{
     background: url("billeder/kreavaerkstedlille.png");
     height: auto;
     width: 400px;
+    border-radius: 10px;
 }
 
 .minindenibokse2{
     background: url("billeder/fest.jpeg");
     height: auto;
     width: 400px;
+    border-radius: 10px;
 }
 
 .tilmeldtearrangementer{
@@ -768,7 +770,7 @@ label{
     height: auto;
     width: 360px;
     background-color: white;
-    opacity: 80%;
+    opacity: 90%;
     border-radius: 30px;
     margin: 20px;
 }
@@ -805,7 +807,7 @@ label{
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 35px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 #ur2{
@@ -814,11 +816,14 @@ label{
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 35px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 
 .boksrundtomcountdown{
+    display: grid;
+    justify-content: center;
+    text-align: center;
     height: 150px;
     width: 330px;
     background-color: #00454F;
@@ -834,11 +839,12 @@ label{
 }
 
 .starter{
+    justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin: 20px;
     color: white;
     font-size: 20px;
+    padding-top: 25px;
 }
 
 .laesmereknap{
@@ -1408,6 +1414,15 @@ label{
     top: -37px;
     left: -10px;
 }
+
+#ur1{
+    font-size: 45px;
+}
+
+#ur2{
+    font-size: 45px;
+}
+
 
 }
 
