@@ -1,8 +1,8 @@
 
 // Define a function named myFunction
-function myFunction() {
-  // Declare and assign the variable x using the let keyword to get the element with the ID "myLinks"
-  let x = document.getElementById("myLinks");
+function burgermenu() {
+  // Declare and assign the variable x using the let keyword to get the element with the ID "burgermenu"
+  let x = document.getElementById("burgermenu");
   
   // Use an if-else statement to check if the style property of the element x is set to "block"
   if (x.style.display === "block") {
@@ -12,32 +12,6 @@ function myFunction() {
     // Otherwise, set the style property to "block"
     x.style.display = "block";
   }
-}
-
-// Define an event listener to call the myFunction() function when a user clicks on a button with the ID "myButton"
-document.getElementById("myButton").addEventListener("click", myFunction);
-
-// Declare an array of numbers
-const numbers = [1, 2, 3, 4, 5];
-
-// Use a for loop to iterate through the array and log each number to the console
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
-}
-
-// Define a function named multiply that takes two parameters and returns their product
-function multiply(num1, num2) {
-  return num1 * num2;
-}
-
-// Call the multiply function and assign the result to a variable named product
-let product = multiply(2, 3);
-
-// Use an if-else statement to check if the product is greater than 10
-if (product > 10) {
-  console.log("The product is greater than 10");
-} else {
-  console.log("The product is less than or equal to 10");
 }
 
 
