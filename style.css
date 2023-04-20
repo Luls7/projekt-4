@@ -786,7 +786,7 @@ main{
 
 
 
-.ur{
+#ur1{
     display: grid;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -794,6 +794,16 @@ main{
     font-size: 40px;
     font-weight: 500;
 }
+
+#ur2{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
 
 
 
