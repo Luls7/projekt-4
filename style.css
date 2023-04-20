@@ -190,9 +190,13 @@ main{
     border: none;
     border-radius: 10px;
     width: 100px;
-    height: 30px;
+    height: 28px;
     font-family: 'Montserrat', sans-serif;
+    font-size: small;
     font-weight: 500;
+    color: #0f0f0f;
+    padding: 7px;
+    padding-left: 12px;
 }
 
 .læsknap a{
@@ -1170,6 +1174,7 @@ label{
     .læsknap{
         width: 120px;
         height: 30px;
+        padding-left: 22px 
     }
 
     .arraoverblik{
