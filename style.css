@@ -287,6 +287,11 @@ main{
     padding-right: 20px;
 }
 
+.beskrivelseafarrangement{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
 .arrangement{
     height: 240px;
     width: 290px;
@@ -843,7 +848,7 @@ label{
     font-size: 25px;
 }
 
-.læsmereknap{
+.laesmereknap{
     background-color: #E4F1F0;
     border: none;
     border-radius: 10px;
@@ -871,17 +876,17 @@ label{
     top: 10px;
 }
 
-.læsmereknap a{
+.laesmereknap a{
     text-decoration: none;
     color: black;
 }
 
-.læsmereknap:hover{
+.laesmereknap:hover{
     background-color: #00454F;
     color: #ffffff;
 }
 
-.læsmereknap a:hover{
+.laesmereknap a:hover{
     color: #ffffff;
 }
 
@@ -1414,7 +1419,7 @@ label{
 }
 
 
-.læsmereknap{
+.laesmereknap{
     grid-column: 1;
     top: 630px;
     left: 837px;
