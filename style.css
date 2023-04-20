@@ -597,7 +597,7 @@ main{
     border-radius: 10px;
 }
 
-#username-input{
+#brugernavn{
     width: 300px;
 }
 
@@ -611,7 +611,7 @@ label{
     padding: 0.75rem 1rem;
 }
 
-#login-button{
+#logind-knap{
     background-color: #E4F1F0;
     border: none;
     border-radius: 10px;
