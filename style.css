@@ -582,7 +582,6 @@ main{
     background-color: #7293A0;
 }
 
-
 /* LOG IND SIDE */
 
 .form{
@@ -738,6 +737,11 @@ label{
     margin: 20px;
 }
 
+.udenominfo{
+    width: auto;
+    height: auto;
+}
+
 .mingridboks2{
     display: grid;
     justify-content: center;
@@ -746,16 +750,12 @@ label{
 
 .minindenibokse1{
     margin-bottom: 30px;
-    display: grid;
-    justify-content: center;
     background: url("billeder/kreavaerkstedlille.png");
     height: auto;
     width: 400px;
 }
 
 .minindenibokse2{
-    display: grid;
-    justify-content: center;
     background: url("billeder/fest.jpeg");
     height: auto;
     width: 400px;
@@ -803,8 +803,8 @@ label{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 800;
 }
 
 #ur2{
@@ -812,26 +812,17 @@ label{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 800;
 }
 
 
 .boksrundtomcountdown{
     height: 150px;
-    width: 400px;
+    width: 330px;
     background-color: #00454F; 
     border-radius: 20px;
     margin: 30px;
-}
-
-
-.boksrundtomcountdown1{
-        height: 150px;
-        width: 400px;
-        background-color: #00454F; 
-        border-radius: 20px;
-        margin: 30px;
 }
 
 .countdowntekst{
@@ -846,7 +837,7 @@ label{
     font-weight: 500;
     margin: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .laesmereknap{
@@ -858,7 +849,7 @@ label{
     height: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 20px;
     position: relative; 
     color: #0f0f0f;
     left: 15px;
@@ -1384,30 +1375,35 @@ label{
     width: 900px;
 }
 
+.udenominfo{
+    width: auto;
+    height: auto;
+}
+
 .tilmeldtearrangementer{
+    grid-template-columns: auto auto;
     height: 400px;
     width: 850px;
+    column-gap: 40px;
 }
-
 
 .overskrifttilmeldt{
-    grid-column: 1 / span 2;
-}
-
-.datominprofil{
-    grid-column: 1 / span 2;
-}
-
-.tidminprofil{
-    grid-row: 3;
     grid-column: 1;
 }
 
-.countdown{
-    grid-row: 3/ span 2;
-    grid-column: 3;
+.datominprofil{
+    grid-column: 1;
 }
 
+.tidminprofil{
+    grid-column: 1;
+}
+
+.boksrundtomcountdown{
+    width: 500px;
+    grid-column: 2;
+    grid-row: 1;
+}
 
 .laesmereknap{
     grid-column: 1;
