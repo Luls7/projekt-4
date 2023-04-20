@@ -742,9 +742,9 @@ main{
 .minindenibokse2{
     display: grid;
     justify-content: center;
+    background: url("billeder/fest.jpeg");
     height: auto;
     width: 400px;
-    background-color: #eaeaea;
 }
 
 .tilmeldtearrangementer{
@@ -805,8 +805,6 @@ main{
 }
 
 
-
-
 .boksrundtomcountdown{
     height: 150px;
     width: 400px;
@@ -847,7 +845,24 @@ main{
     height: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 50px;
+    position: absolute; 
+    left: 950px;
+    top: 543px;
+}
+
+.hokuspokus{
+    background-color: #E4F1F0;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+    position: relative; 
+    left: 10px;
+    top: 10px;
 }
 
 .læsmereknap a{
@@ -1360,7 +1375,7 @@ main{
 }
 
 .tilmeldtearrangementer{
-    height: auto;
+    height: 400px;
     width: 850px;
 }
 
@@ -1386,6 +1401,13 @@ main{
 
 .læsmereknap{
     grid-column: 1;
+    top: 630px;
+    left: 837px;
+}
+
+.hokuspokus{
+    top: -37px;
+    left: 427px;
 }
 
 
