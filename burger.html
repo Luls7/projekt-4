@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <title>VoresUCL</title>
-    <link rel="stylesheet" href="burger.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e731c0393a.js" crossorigin="anonymous"></script>
-    <script src="burger.js" defer></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="navigationmobil">
-                <div class="navigationboks">
-                    <div id="menuboks"></div>
-                </div>
-                <div id="menuboksitems"></div>
-                <div id="burgermenulang" class="burgermenulang"></div>
-            </div>
-            <div class="menubar">
-                <div class="navigationcomputer"></div>
-                <ul>
-                    <li>Forside</li>
-                    <li>Arrangementer</li>
-                    <li>Opret arrangement</li>
-                    <li>Min profil</li>
-                </ul>
-            </div>   
-        </nav>
-    </header>    
-    <main>
-    </main>
-    <footer>
-    </footer>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Burger Menu</title>
+    <link rel="stylesheet" href="burger.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="burger-menu">
+        <div class="burger-icon" id="burger-icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="arrangementer.html">Arrangementer</a></li>
+          <li><a href="opret.html">Opret arrangement</a></li>
+          <li><a href="minprofil.html">Min profil</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
 </html>
+
+<script>
+  const menuItems = document.querySelectorAll(".menu li");
+  const burgerIcon = document.querySelector("#burger-icon");
+  const menu = document.querySelector("#menu");
+  let isMenuOpen = false;
+
+  function toggleMenu() {
+    isMenuOpen = !isMenuOpen;
+    menu.style.display = isMenuOpen ? "block" : "none";
+  }
+
+  burgerIcon.addEventListener("click", toggleMenu);
+  menuItems.forEach((item) => item.addEventListener("click", toggleMenu));
+</script>

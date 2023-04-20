@@ -1,62 +1,62 @@
-header {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #00454F;
-  }
-  
-  .navigationboks {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 40px 10px 40px;
-  }
-  
-  .burgermenulang {
-    display: flex;
-    flex: wrap;
-  }
-  
-  #menuboks {
-    display: none;
-    position: absolute;
-    padding: 10px 40px;
-    width: 100%;
-    height: 500px;
-  }
-  
-  .menuelement {
-    display: block;
-    cursor: pointer;
-    padding-top: 30px;
-    color: white;
-  }
-  
-  #burgertoggle {
-    position: absolute;
-    top: 38.5px;
-    right: 35px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  #burgertoggle div {
-    width: 30px;
-    height: 5px;
-    background-color: white;
-    margin: 5px 0;
-    border-radius: 33px;
-    transition: transform 0.4s ease-in-out;
-  }
-  
-  #burgertoggle.open div:nth-of-type(1) {
-    transform: rotate(-45deg) translateY(6px) translateX(-8px);
-  }
-  
-  #burgertoggle.open div:nth-of-type(2) {
-    opacity: 0;
-  }
-  
-  #burgertoggle.open div:nth-of-type(3) {
-    transform: rotate(45deg) translateY(-6px) translateX(-8px);
-  }
+nav {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  position: relative;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.burger-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: #ffffff;
+  height: 2px;
+  transition: transform 0.2s ease-in-out;
+  width: 25px;
+}
+
+.menu {
+  background-color: #1a1a1a;
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 90px;
+}
+
+.menu{
+  width: 500px;
+}
+
+.menu li {
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+.menu li a {
+  color: #ffffff;
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu li a:hover {
+  color: #ff6700;
+}
+
