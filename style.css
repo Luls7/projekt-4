@@ -872,13 +872,14 @@ label{
     font-weight: 500;
     margin-left: 50px;
     position: relative; 
+    color: #0f0f0f;
     left: 10px;
     top: 10px;
+    text-decoration: none;
 }
 
-.laesmereknap a{
+.hokuspokus a{
     text-decoration: none;
-    color: black;
 }
 
 .laesmereknap:hover{
@@ -1430,7 +1431,9 @@ label{
     left: 427px;
 }
 
-
+.hokuspokus a{
+    text-decoration: none;
+}
 }
 
 }
