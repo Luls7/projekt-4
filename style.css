@@ -766,13 +766,6 @@ main{
     margin-bottom: -5px;
 }
 
-.overskrifttilmeldt2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    margin-left: 35px;
-    color:#00454F;
-    margin-bottom: -5px;
-}
 
 .datominprofil{
     font-family: 'Montserrat', sans-serif;
@@ -781,12 +774,6 @@ main{
     margin-bottom: none;
 }
 
-.datominprofil2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    margin-left: 35px;
-    margin-bottom: none;
-}
 
 .tidminprofil{
     font-family: 'Montserrat', sans-serif;
@@ -797,16 +784,9 @@ main{
     margin-top: -5px;
 }
 
-.tidminprofil2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: smaller;
-    margin-left: 35px;
-    margin-bottom: none;
-    margin-top: -5px;
-}
 
-#ur{
+
+.ur{
     display: grid;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -815,14 +795,7 @@ main{
     font-weight: 500;
 }
 
-#ur2{
-    display: grid;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 40px;
-    font-weight: 500;
-}
+
 
 .boksrundtomcountdown{
     height: 150px;
@@ -855,15 +828,6 @@ main{
     color: white;
     font-size: 25px;
 }
-
-.starter1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    margin: 20px;
-    color: white;
-    font-size: 25px;
-}
-
 
 .læsmereknap{
     background-color: #E4F1F0;
