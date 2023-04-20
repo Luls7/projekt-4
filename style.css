@@ -18,6 +18,8 @@ main{
     font-weight: 700;
     letter-spacing: 3px;
  }
+ 
+ .logo
     
 .topnav {
     overflow: hidden;
@@ -587,7 +589,7 @@ main{
     margin: 140px;
 }
 
-.login-input{
+.logindNavne{
     display: inline-block;
     border: solid 1px rgba(141,141,141,0.5);
     width: 100%;
@@ -597,7 +599,7 @@ main{
     border-radius: 10px;
 }
 
-#username-input{
+#brugernavn{
     width: 300px;
 }
 
@@ -611,7 +613,7 @@ label{
     padding: 0.75rem 1rem;
 }
 
-#login-button{
+#logind-knap{
     background-color: #E4F1F0;
     border: none;
     border-radius: 10px;
@@ -628,7 +630,7 @@ label{
     align-items: center;
 }
 
-.invalid-input{
+.forkert{
     font-size: 1rem;
     font-weight: 500;
     color:#d20200;
@@ -1127,6 +1129,7 @@ label{
         color: white;
         font-style: italic;
         font-size: 25px;
+        
     }
 
     .topnav {
