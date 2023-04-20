@@ -738,6 +738,7 @@ label{
 }
 
 .udenominfo{
+    margin-top: 20px;
     width: auto;
     height: auto;
 }
@@ -820,7 +821,7 @@ label{
 .boksrundtomcountdown{
     height: 150px;
     width: 330px;
-    background-color: #00454F; 
+    background-color: #00454F;
     border-radius: 20px;
     margin: 30px;
 }
@@ -849,11 +850,8 @@ label{
     height: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-left: 20px;
-    position: relative; 
+    margin-left: 30px;
     color: #0f0f0f;
-    left: 15px;
-    top: -10px; 
     padding: 5px;
 }
 
@@ -1382,7 +1380,7 @@ label{
 
 .tilmeldtearrangementer{
     grid-template-columns: auto auto;
-    height: 400px;
+    height: auto;
     width: 850px;
     column-gap: 40px;
 }
