@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded",load);
 
 //Array 
 const logindNavne = [
-    {"brugernavn":"Studerende1","kodeord":"Studerende1"},
+    {"brugernavn":"Hej","kodeord":"Hej"},
     {"brugernavn":"Studerende2","kodeord":"Studerende2"}
 ];
 
@@ -17,13 +17,13 @@ function load(){
 
     // Variabler for at ungå at skrive det i funktionen.
     // queryselector er standarden at bruge, den kan bruges både til at target elementer ved brug af tags, id´er og class
-    const brugerNavn = document.querySelector("#brugernavn").value;
-    const adgangsKode = document.querySelector("#kodeord").value;
+    const brugerNavn = document.querySelector("#brugernavnboks").value;
+    const adgangsKode = document.querySelector("#kodeordboks").value;
 
     // vi bruger const fordi at det ikke er noget der skal ændre sig, vi bruger let når vi har en værdig vi ved der skal ændre sig
 
     for(let i = 0; i < logindNavne.length; i++){        
-        if (logindNavne[i].brugerNavn == brugerNavn && logindNavne[i].kodeord == adgangsKode){
+        if (logindNavne[i].brugernavn == brugerNavn && logindNavne[i].kodeord == adgangsKode){
             window.location = "index.html";
             console.log("det virker");
             break; // Stopper loopet hvis if-statement er true og den når til break (kan også bruges til andre ting)
